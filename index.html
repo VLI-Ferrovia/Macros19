@@ -118,7 +118,7 @@ h1{font:700 40px/1.05 var(--display);letter-spacing:.01em;text-transform:upperca
 .detail[hidden]{display:none}
 .col{display:flex;flex-direction:column;gap:12px;min-width:0;padding-top:12px}
 .lbl{font:600 12px/1 var(--body);letter-spacing:.12em;text-transform:uppercase;color:var(--muted);margin-bottom:5px}
-.desc{overflow-wrap:anywhere}
+.desc{white-space:pre-line;overflow-wrap:anywhere}
 .warn{display:flex;flex-direction:column;gap:6px;margin:0;padding:0;list-style:none}
 .warn li{padding:8px 10px;background:var(--b);color:var(--fg);border-radius:4px;font-size:14px;line-height:1.4;border-left:3px solid var(--c)}
 .steps{margin:0;padding:0;list-style:none;display:flex;flex-direction:column;gap:8px;counter-reset:s}
@@ -204,6 +204,8 @@ h1{font:700 40px/1.05 var(--display);letter-spacing:.01em;text-transform:upperca
     ['Proteção ao Negócio','26','Vandalismo a eletroeletrônica','Atos de vandalismo a semáforos ferroviários e DDCs.','inc',[]],
     ['Proteção ao Negócio','27','Ocupação do gabarito de via','Invasões e construções às margens da via. Invasão aérea do gabarito por máquinas e equipamentos.','inc',[]],
     ['Proteção ao Negócio','28','PN Clandestina','Travessia de veículos ou pedestres em PN não cadastrada pela ferrovia, aberta por terceiros sem a devida autorização.','inc',[]],
+    ['Proteção ao Negócio','-','Inc-AVU Invasões','Evento de Invasão da Faixa de Domínio. EX:Construções, cercas, obras, barracas, tendas...\n\nOcupação permanente ou semipermanente. Normalmente envolve posse, uso ou instalação de algo na faixa de domínio.','inc',[]],
+
 
     ['Descumprimentos','30','Regra de comunicação','Falta de comunicação ou comunicação inadequada.','est',[EMERG]],
     ['Descumprimentos','31','Regra de formação e recomposição de trem','Vagões carregados alternados em composição vazia; falhas no agrupamento de vagões; tração insuficiente; freio isolado; vagão meia carga; veículo clandestino.','qa',['Não considerar divergência entre o físico e a ficha da composição.']],
